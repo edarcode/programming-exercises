@@ -1,0 +1,21 @@
+{
+  "name": "programming-exercises",
+  "version": "1.0.0",
+  "description": "Ejercicios para mejorar lógica de programación",
+  "main": "addHourglass.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edarcode/programming-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edarcode/programming-exercises/issues"
+  },
+  "homepage": "https://github.com/edarcode/programming-exercises#readme"
+}
