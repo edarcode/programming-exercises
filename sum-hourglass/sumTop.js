@@ -1,7 +1,8 @@
-export const sumTop = (array, index) => {
-  if (!array) return null;
-  const init = array[index];
-  const next = array[index + 1];
-  const nextNext = array[index + 2];
+export const sumTop = (arr, index) => {
+  const init = arr[index];
+  const next = arr[index + 1];
+  const nextNext = arr[index + 2];
+  if (init === undefined || next === undefined || nextNext === undefined)
+    return;
   return init + next + nextNext;
 };
